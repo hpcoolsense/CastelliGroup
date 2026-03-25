@@ -70,7 +70,7 @@ export default function Methodology() {
         <div className="mt-16 grid md:grid-cols-3 gap-6">
           {STEPS.map((step, i) => (
             <AnimatedSection key={step.label} delay={i * 0.12}>
-              <div className="relative group h-full p-8 rounded-3xl bg-white border border-slate-100 shadow-[0_2px_12px_rgba(0,0,0,0.04)] hover:shadow-[0_8px_32px_rgba(0,0,0,0.08)] transition-all duration-500 hover:translate-y-[-2px]">
+              <div className="relative group h-full p-6 md:p-8 rounded-3xl bg-white border border-slate-100 shadow-[0_2px_12px_rgba(0,0,0,0.04)] hover:shadow-[0_8px_32px_rgba(0,0,0,0.08)] transition-all duration-500 hover:translate-y-[-2px]">
                 {/* Step number */}
                 <div className="flex items-center gap-3 mb-6">
                   <div className={`w-10 h-10 rounded-xl bg-${step.color}/10 flex items-center justify-center`}>

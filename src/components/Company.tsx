@@ -42,7 +42,7 @@ export default function Company() {
       <div className="relative max-w-6xl mx-auto px-6">
         {/* Company card — two columns: info + photo */}
         <AnimatedSection>
-          <div className="p-8 md:p-12 rounded-3xl bg-white border border-slate-100 shadow-xl shadow-slate-200/50">
+          <div className="p-5 sm:p-8 md:p-12 rounded-3xl bg-white border border-slate-100 shadow-xl shadow-slate-200/50">
             <div className="grid lg:grid-cols-2 gap-10 lg:gap-14">
               {/* Left: Company info */}
               <div>

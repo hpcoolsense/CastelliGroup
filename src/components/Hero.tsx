@@ -90,7 +90,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.5 }}
-              className="mt-10"
+              className="mt-10 w-full sm:w-auto"
             >
               <CTAButton
                 text="Agendá tu diagnóstico gratuito"

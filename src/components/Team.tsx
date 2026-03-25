@@ -46,7 +46,7 @@ export default function Team() {
         </AnimatedSection>
 
         <AnimatedSection delay={0.15} className="mt-12">
-          <div className="p-8 md:p-12 rounded-3xl bg-white border border-slate-100 shadow-xl shadow-slate-200/50">
+          <div className="p-5 sm:p-8 md:p-12 rounded-3xl bg-white border border-slate-100 shadow-xl shadow-slate-200/50">
             <div className="flex flex-col lg:flex-row items-center lg:items-start gap-10 lg:gap-14">
               {/* Left column: Photo + Certificate */}
               <div className="shrink-0 flex flex-col items-center gap-5">
@@ -61,7 +61,7 @@ export default function Team() {
                 </div>
 
                 {/* Certificate image */}
-                <div className="w-56 md:w-64 rounded-xl overflow-hidden shadow-lg shadow-slate-200/40 border border-slate-100 hover:shadow-xl transition-shadow duration-300">
+                <div className="w-48 sm:w-56 md:w-64 rounded-xl overflow-hidden shadow-lg shadow-slate-200/40 border border-slate-100 hover:shadow-xl transition-shadow duration-300">
                   <img
                     src={asset("/images/certificado-siglo21.png")}
                     alt="Certificado Universidad Siglo 21 — Gestión de Proyectos y Políticas Públicas"

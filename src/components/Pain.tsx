@@ -46,7 +46,7 @@ export default function Pain() {
         <div className="mt-12 md:mt-16 space-y-4">
           {PAIN_POINTS.map((pain, i) => (
             <AnimatedSection key={pain.number} delay={i * 0.08}>
-              <div className="group flex items-start gap-5 md:gap-6 p-5 md:p-6 rounded-2xl border border-transparent hover:border-slate-100 hover:bg-white/60 hover:shadow-[0_2px_16px_rgba(0,0,0,0.04)] transition-all duration-300">
+              <div className="group flex items-start gap-5 md:gap-6 p-4 md:p-6 rounded-2xl border border-transparent hover:border-slate-100 hover:bg-white/60 hover:shadow-[0_2px_16px_rgba(0,0,0,0.04)] transition-all duration-300">
                 <span className="text-2xl md:text-3xl font-bold text-brand-200 group-hover:text-brand-400 transition-colors duration-300 tabular-nums shrink-0">
                   {pain.number}
                 </span>

@@ -26,7 +26,7 @@ export default function CTAButton({
     <div className={`flex flex-col items-start ${className}`}>
       <a
         href={href}
-        className={`cta-button group relative inline-flex items-center ${sizeClasses} font-semibold text-white rounded-full overflow-hidden transition-all duration-500 hover:translate-y-[-2px] active:translate-y-0`}
+        className={`cta-button group relative inline-flex items-center justify-center w-full sm:w-auto text-center ${sizeClasses} font-semibold text-white rounded-full overflow-hidden transition-all duration-500 hover:translate-y-[-2px] active:translate-y-0`}
       >
         {/* Background gradient */}
         <span className="absolute inset-0 bg-gradient-to-r from-brand-600 via-brand-500 to-brand-600 bg-[length:200%_100%] animate-none group-hover:animate-[shimmer_2s_ease-in-out_infinite] transition-all" />

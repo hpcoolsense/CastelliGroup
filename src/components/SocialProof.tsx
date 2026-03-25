@@ -72,7 +72,7 @@ export default function SocialProof() {
           {doubled.map((t, i) => (
             <div
               key={i}
-              className="flex-shrink-0 w-[400px] md:w-[480px] mx-3 p-7 rounded-2xl bg-white border border-slate-100 shadow-[0_2px_16px_rgba(0,0,0,0.05)] hover:shadow-[0_8px_32px_rgba(0,0,0,0.1)] transition-shadow duration-300"
+              className="flex-shrink-0 w-[320px] sm:w-[400px] md:w-[480px] mx-3 p-7 rounded-2xl bg-white border border-slate-100 shadow-[0_2px_16px_rgba(0,0,0,0.05)] hover:shadow-[0_8px_32px_rgba(0,0,0,0.1)] transition-shadow duration-300"
             >
               <Quote size={24} className="text-brand-400 mb-4" />
               <p className="text-slate-500 text-[15px] leading-relaxed mb-5">
