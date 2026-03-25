@@ -4,6 +4,7 @@ import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Counter from "./ui/Counter";
 import CTAButton from "./ui/CTAButton";
+import { asset } from "@/lib/config";
 
 export default function Hero() {
   const sectionRef = useRef(null);
@@ -112,7 +113,7 @@ export default function Hero() {
           >
             <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-slate-300/50 aspect-[3/4]">
               <img
-                src="/images/evento-idecom.png"
+                src={asset("/images/evento-idecom.png")}
                 alt="Eugenia Castelli presentando en IDECOM — Consejo Federal de Inversiones, frente a 400 personas"
                 className="w-full h-full object-cover"
               />

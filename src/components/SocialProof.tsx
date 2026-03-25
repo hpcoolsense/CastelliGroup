@@ -2,6 +2,7 @@
 
 import { Quote } from "lucide-react";
 import AnimatedSection from "./ui/AnimatedSection";
+import { asset } from "@/lib/config";
 
 const TESTIMONIALS = [
   {
@@ -84,7 +85,7 @@ export default function SocialProof() {
               <div className="flex items-center gap-3 pt-4 border-t border-slate-100">
                 <div className="w-10 h-10 rounded-full overflow-hidden bg-brand-100 shrink-0">
                   <img
-                    src={t.photo}
+                    src={asset(t.photo)}
                     alt={t.author}
                     className="w-full h-full object-cover"
                     loading="lazy"

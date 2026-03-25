@@ -3,6 +3,7 @@
 import AnimatedSection from "./ui/AnimatedSection";
 import ParallaxImage from "./ui/ParallaxImage";
 import CTAButton from "./ui/CTAButton";
+import { asset } from "@/lib/config";
 import { Target, Zap, Shield, TrendingUp } from "lucide-react";
 import { LinkedinIcon, InstagramIcon } from "./ui/SocialIcons";
 
@@ -123,7 +124,7 @@ export default function Company() {
               <AnimatedSection delay={0.15} direction="right">
                 <div className="rounded-2xl overflow-hidden shadow-lg shadow-slate-200/40">
                   <ParallaxImage
-                    src="/images/equipo-yerba-buena.png"
+                    src={asset("/images/equipo-yerba-buena.png")}
                     alt="Equipo de trabajo — Castelli Group en Municipalidad de Yerba Buena"
                     className="aspect-[4/3]"
                     speed={0.15}

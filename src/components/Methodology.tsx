@@ -3,6 +3,7 @@
 import AnimatedSection from "./ui/AnimatedSection";
 import ParallaxImage from "./ui/ParallaxImage";
 import TextReveal from "./ui/TextReveal";
+import { asset } from "@/lib/config";
 import { Search, Wrench, Users } from "lucide-react";
 
 const STEPS = [
@@ -58,7 +59,7 @@ export default function Methodology() {
         {/* Photo banner — real work */}
         <AnimatedSection delay={0.1} className="mt-14">
           <ParallaxImage
-            src="/images/capacitacion.png"
+            src={asset("/images/capacitacion.png")}
             alt="Capacitación y formación de equipos — Castelli Group en acción"
             className="rounded-2xl shadow-lg shadow-slate-200/40 aspect-[21/7]"
             speed={0.4}

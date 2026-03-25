@@ -3,6 +3,7 @@
 import AnimatedSection from "./ui/AnimatedSection";
 import { LinkedinIcon, InstagramIcon } from "./ui/SocialIcons";
 import Counter from "./ui/Counter";
+import { asset } from "@/lib/config";
 import { GraduationCap, Award } from "lucide-react";
 
 const CREDENTIALS = [
@@ -52,7 +53,7 @@ export default function Team() {
                 {/* Profile photo */}
                 <div className="w-44 h-44 md:w-52 md:h-52 rounded-full overflow-hidden bg-brand-50 shadow-[0_8px_32px_rgba(0,0,0,0.12)] ring-4 ring-white">
                   <img
-                    src="/images/eugenia-final.png"
+                    src={asset("/images/eugenia-final.png")}
                     alt="Eugenia Castelli — Directora de Estrategia y Desarrollo"
                     className="w-full h-full object-cover"
                     loading="lazy"
@@ -62,7 +63,7 @@ export default function Team() {
                 {/* Certificate image */}
                 <div className="w-56 md:w-64 rounded-xl overflow-hidden shadow-lg shadow-slate-200/40 border border-slate-100 hover:shadow-xl transition-shadow duration-300">
                   <img
-                    src="/images/certificado-siglo21.png"
+                    src={asset("/images/certificado-siglo21.png")}
                     alt="Certificado Universidad Siglo 21 — Gestión de Proyectos y Políticas Públicas"
                     className="w-full h-auto"
                     loading="lazy"
